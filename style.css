@@ -1,0 +1,24 @@
+@import url(/blocks/header.css);
+@import url(blocks/order.css);
+@import url(/vendor/fount.css);
+@import url(/blocks/bestSheller.css);
+
+.body{
+    max-width: 1920px;
+}
+
+*::-webkit-scrollbar {
+    width: .375rem;
+    height: .375rem;
+}
+
+*::-webkit-scrollbar-track {
+    border-radius: .25rem;
+    background: white;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: .25rem;
+    background: darkgrey;
+}
+

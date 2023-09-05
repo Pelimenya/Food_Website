@@ -1,0 +1,49 @@
+.BestSheller_logo {
+    font-family: Pacifico;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.BestSheller_text {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+
+.card{
+
+    border: 0px;
+    align-items: center;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-img-top{
+    width: 200px;
+
+}
+.card-text{
+    text-align: center;
+}
+
+.cardHref{
+    text-decoration-line: none;
+}
+
+.Cards_bar{
+    display: flex;
+    flex-direction: row;
+    gap: 100px
+}
+
+.BestSheller__con{
+    display: flex;
+    align-items:center;
+    flex-direction: column;;
+}
+

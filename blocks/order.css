@@ -1,0 +1,29 @@
+.order{
+    background: url(../img/eda_background.jpg);
+    height: 1080px;
+    
+}
+.oreder_logo{
+    margin-top: 300px;
+  color: yellow;
+  font-family: Pacifico;
+  font-size: 50px;
+}
+.order_text{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.btn-warning{
+    border-radius: 2px;
+    width: 200px ;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;    
+}
+
+
+
