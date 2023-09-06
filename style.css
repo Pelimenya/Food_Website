@@ -1,10 +1,10 @@
-@import url(/blocks/header.css);
-@import url(blocks/order.css);
-@import url(/vendor/fount.css);
-@import url(/blocks/bestSheller.css);
-@import url(/blocks/footer.css);
-@import url(/node_modules/normalize.css/normalize.css);
-@import url(/blocks/statistics.css);
+@import url(./blocks/header.css);
+@import url(./blocks/order.css);
+@import url(./vendor/fount.css);
+@import url(./blocks/bestSheller.css);
+@import url(./blocks/footer.css);
+@import url(./node_modules/normalize.css/normalize.css);
+@import url(./blocks/statistics.css);
 
 .body{
     max-width: 100%;
