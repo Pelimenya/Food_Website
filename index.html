@@ -2,124 +2,189 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Еда</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Еда</title>
 </head>
 
 <body>
-    <div class="body">
+  <div class="body">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand link-light" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Disabled</a>
+              </li>
+              <li class="img-searh">
+                <a href="#">
+                  <img src="/img/search.svg" alt="поиск" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="order">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h1 class="oreder_logo">order now logo</h1>
+              <p class="order_text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aspernatur obcaecati ducimus perspiciatis, maiores ipsa
+                quaerat! Deleniti dolores exercitationem aut! Accusamus
+                nostrum dolorum necessitatibus, dolor laboriosam aliquid.
+                Beatae recusandae voluptatum nam?
+              </p>
+              <button type="button" class="btn btn-warning">order now</button>
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
+      </div>
+      <div class="BestSheller">
+        <div class="container BestSheller__con">
+          <div class="row">
+            <div class="col">
+              <h1 class="BestSheller_logo">Best Sheller</h1>
+              <p class="BestSheller_text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Deleniti voluptatibus, repellat, dolore sapiente illum.
+              </p>
+            </div>
+          </div>
+          <div class="Cards_bar">
+            <div class="col">
+              <a href="#" class="cardHref">
+                <div class="card" style="width: 18rem">
+                  <img class="card-img-top" src="/img/foodCard.png" alt="Card image cap" />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col">
+              <a href="#" class="cardHref">
+                <div class="card" style="width: 18rem">
+                  <img class="card-img-top" src="/img/foodCard.png" alt="Card image cap" />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col">
+              <a href="#" class="cardHref">
+                <div class="card" style="width: 18rem">
+                  <img class="card-img-top" src="/img/foodCard.png" alt="Card image cap" />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="orientalTaste bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col d-flex align-items-center justify-content-center">
+              <img src="/img/eda_taste.png" alt="">
+            </div>
+            <div class="col d-flex flex-column">
+              <h1 class="oreder_logo mt-5">Oriental Taste</h1>
+              <p class="order_text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aspernatur obcaecati ducimus perspiciatis, maiores ipsa
+                quaerat! Deleniti dolores exercitationem aut! Accusamus
+                nostrum dolorum necessitatibus, dolor laboriosam aliquid.
+                Beatae recusandae voluptatum nam?
+              </p>
+              <button type="button" class="btn btn-warning mb-5">order now</button>
+            </div>
+          </div>
+      </div>
+    </main>
+    <footer class="footer row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top bg-dark text-light">
+      <div class="col mb-3 col1">
+        <h5><ya-tr-span data-index="6-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+          data-value="Section" data-translation="Раздел" data-ch="0" data-type="trSpan">Раздел</ya-tr-span></h5>
+        <p class="link-light"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eligendi, labore incidunt
+          nam totam rerum.</p>
+          <img src="/img/instagram.svg" alt="#">
+        <img src="/img/facebook.svg" alt="#">
+        <img src="/img/youtube.svg" alt="#">
+      </div>
+      <div class="col mb-3">
+        <h5><ya-tr-span data-index="6-0" data-translated="true" data-source-lang="en" data-target-lang="ru"
+            data-value="Section" data-translation="Раздел" data-ch="0" data-type="trSpan">Раздел</ya-tr-span></h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Главная</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Характеристики</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Цены</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Вопросы и ответы</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">О нас</a></li>
+        </ul>
+      </div>
 
-        <head>
-            <nav class="navbar navbar-expand-lg bg-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand link-light" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="navbar" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="#">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="#">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="#">Disabled</a>
-                            </li>
-                            <li class="img-searh">
-                                <a href="#">
-                                    <img src="/img/search.svg" alt="поиск">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </head>
-        <main>
-            <div class="order">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <h1 class="oreder_logo">order now logo</h1>
-                            <p class="order_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur
-                                obcaecati ducimus
-                                perspiciatis, maiores ipsa quaerat! Deleniti dolores exercitationem aut! Accusamus
-                                nostrum dolorum necessitatibus, dolor laboriosam aliquid. Beatae recusandae voluptatum
-                                nam?
-                            </p>
-                            <button type="button" class="btn btn-warning">order now</button>
-                        </div>
-                        <div class="col">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="BestSheller">
-                <div class="container BestSheller__con">
-                    <div class="row">
-                        <div class="col">
-                            <h1 class="BestSheller_logo">Best Sheller</h1>
-                            <p class="BestSheller_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Deleniti voluptatibus,
-                                repellat, dolore sapiente illum.</p>
-                        </div>
-                    </div>
-                    <div class="Cards_bar">
-                        <div class="col">
-                            <a href="#" class="cardHref">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="/img/foodCard.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="#" class="cardHref">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="/img/foodCard.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a href="#" class="cardHref">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="/img/foodCard.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up
-                                            the bulk of the card's content.</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-    </div>
+      <div class="col mb-3">
+        <h5>Раздел</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Главная</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Характеристики</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Цены</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Вопросы и ответы</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">О нас</a></li>
+        </ul>
+      </div>
+      <div class="col mb-3">
+        <h5>Раздел</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Главная</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Характеристики</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Цены</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Вопросы и ответы</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">О нас</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>
