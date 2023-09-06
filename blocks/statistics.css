@@ -1,0 +1,52 @@
+.circle {
+    width: 150px;
+    height: 150px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffc107;
+    text-align: center;
+    background: #212529;
+    border-style:solid ;
+    border-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .circle_text{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 0%;
+    text-transform: uppercase;
+  }
+
+  .circle_logo{
+    margin-top: 40px;
+  }
+
+  .statistics{
+    background-color: #212529 ;
+  }
+
+  .statistics_logo{
+    padding-top: 100px;
+    font-family: Pacifico ;
+    color: #ffc107;
+    margin-top: 0px;
+    font-size: 50px;
+  }
+
+  .statistics_text{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 200;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .circles{
+    gap: 27px;
+    padding-bottom: 100px;
+  }
