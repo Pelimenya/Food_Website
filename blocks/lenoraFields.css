@@ -1,0 +1,26 @@
+.lenoraFields{
+    background: url(../img/eda_back.jpg);
+    height: 500px;
+    
+
+}
+
+.lenoraFields_text{
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 150px;
+    font-size: 30px;
+    font-weight: 200;
+    max-width: 900px;
+
+}
+
+.lenoraFields_logo{
+    margin-bottom: 150px;
+    font-family: Pacifico;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+
+}
