@@ -5,6 +5,12 @@
 @import url(./blocks/footer.css);
 @import url(./node_modules/normalize.css/normalize.css);
 @import url(./blocks/statistics.css);
+@import url(./blocks/chickenGrill.css);
+@import url(./blocks/lenoraFields.css);
+@import url(./blocks/subscribe.css);
+@import url(./blocks/orientalTaste.css);
+
+
 
 .body{
     max-width: 100%;

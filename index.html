@@ -16,7 +16,9 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand link-light" href="#">Navbar</a>
+          <a class="navbar-brand link-light" href="#">
+            <img  class="logo_img" src="./img/header_logo.png" alt="">
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,17 +29,20 @@
                 <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Features</a>
+                <a class="nav-link text-light" href="#">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Pricing</a>
+                <a class="nav-link text-light" href="#">Promo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Disabled</a>
+                <a class="nav-link text-light" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Contact</a>
               </li>
               <li class="img-searh">
                 <a href="#">
-                  <img src="/img/search.svg" alt="поиск" />
+                  <img class="img_search" src="./img/search.png" alt="поиск" />
                 </a>
               </li>
             </ul>
@@ -50,7 +55,7 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              <h1 class="oreder_logo">order now logo</h1>
+              <h1 class="oreder_logo">Title here</h1>
               <p class="order_text">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Aspernatur obcaecati ducimus perspiciatis, maiores ipsa
@@ -65,7 +70,7 @@
         </div>
       </div>
       <div class="BestSheller">
-        <div class="container BestSheller__con">
+        <div class="container BestSheller__con mb-5">
           <div class="row">
             <div class="col">
               <h1 class="BestSheller_logo">Best Sheller</h1>
@@ -79,7 +84,7 @@
             <div class="col">
               <a href="#" class="cardHref">
                 <div class="card" style="width: 18rem">
-                  <img class="card-img-top" src="/img/foodCard.png" alt="Card image cap" />
+                  <img class="card-img-top" src="./img/foodCard_1.png" alt="Card image cap" />
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">
@@ -93,7 +98,7 @@
             <div class="col">
               <a href="#" class="cardHref">
                 <div class="card" style="width: 18rem">
-                  <img class="card-img-top" src="/img/foodCard.png" alt="Card image cap" />
+                  <img class="card-img-top" src="./img/foodCacrd_2.png" alt="Card image cap" />
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">
@@ -107,7 +112,7 @@
             <div class="col">
               <a href="#" class="cardHref">
                 <div class="card" style="width: 18rem">
-                  <img class="card-img-top" src="/img/foodCard.png" alt="Card image cap" />
+                  <img class="card-img-top" src="./img/foodcard_3.png" alt="Card image cap" />
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">
@@ -125,7 +130,7 @@
         <div class="container">
           <div class="row">
             <div class="col d-flex align-items-center justify-content-center">
-              <img src="/img/eda_taste.png" alt="" />
+              <img class="img_eda" src="./img/eda_up.png" alt="" />
             </div>
             <div class="col d-flex flex-column">
               <h1 class="oreder_logo mt-5">Oriental Taste</h1>
@@ -180,6 +185,53 @@
           </div>
         </div>
       </div>
+      <div class="chickenGrill bg-dark">
+        <div class="container chickenGrill_container">
+          <div class="row">
+            <div class="col d-flex flex-column">
+              <h1 class="chickenGrill_logo mt-5">Chicken Gril</h1>
+              <p class="chickenGrill_text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aspernatur obcaecati ducimus perspiciatis.
+              </p>
+              <button type="button" class="btn btn-warning mb-5">
+                order now
+              </button>
+            </div>
+            <div class="col d-flex align-items-center justify-content-start m-0">
+              <img src="./img/eda_taste.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lenoraFields">
+        <div class="container">
+          <div class="col">
+            <p class="lenoraFields_text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Deleniti voluptatibus, repellat, dolore sapiente illum.
+            </p>
+            <h1 class="lenoraFields_logo"> Lenora Fields</h1>
+          </div>
+        </div>
+      </div>
+      <div class="subscribe">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h1 class="subscribe_logo">Subscribe</h1>
+              <p class="subscribe_text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Deleniti voluptatibus, repellat, dolore sapiente illum.
+              </p>
+              <div class="input-group subscribe_inputGroup">
+                <input  class="subscribe_input" type="email" id="email" pattern=".+@mail.\.ru" size="30" required />
+                <button type="button" class="btn btn-warning subscribe_button">subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="footer row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top bg-dark text-light">
       <div class="col mb-3 col1">
@@ -191,9 +243,10 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
           eligendi, labore incidunt nam totam rerum.
         </p>
-        <img src="/img/instagram.svg" alt="#" />
-        <img src="/img/facebook.svg" alt="#" />
-        <img src="/img/youtube.svg" alt="#" />
+        <a href="#"><img class="footer_icon" src="./img/instagram.png" alt="#" /></a>
+        <a href="#"><img class="footer_icon" src="./img/facebook.png" alt="#" /></a>
+        <a href="#"><img class="footer_icon" src="./img/Twitter.png" alt="#" /></a>
+        <a href="#"><img class="footer_icon" src="./img/WhatsApp.png" alt="#" /></a>
       </div>
       <div class="col mb-3">
         <h5>

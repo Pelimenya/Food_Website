@@ -1,0 +1,36 @@
+.subscribe_logo {
+    font-family: Pacifico;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.subscribe_text {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.subscribe{
+    background: url(../img/foot_back.png);
+}
+
+.subscribe_inputGroup{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    justify-content: center;   
+}
+
+.subscribe_input{
+ border: 1px;
+ border-style: solid;
+ border-radius: 3px;
+}
+
+.subscribe_button{
+border-radius: 3px;
+}
